@@ -22,4 +22,4 @@ This will display the index.html and thus the svg files through a webserver.
 
 ![graph][graph]
 
-[graph]: https://raw.githubusercontent.com/louwrentius/airquality/master/example.svg 
+[graph]: https://raw.githubusercontent.com/louwrentius/airquality/master/example.png
