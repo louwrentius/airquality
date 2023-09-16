@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-#
+# 
 # This script requires the following:
 # 1. A Dylos DC1100 Pro with serial interface
 # 2. a working InfluxDB server ready to receive measurement data
 # 3. (Optional) a Grafana installation reading data from InfluxDB for nice graphs but Influx can do graphs too 
 #
+# Note: The Dylos DC1100 Pro only outputs a measurement on the serial bus
+#       once a minute
 import sys
 import serial
 import time
